@@ -13,7 +13,7 @@ source "amazon-ebs" "rhel9_ansible" {
   region        = "us-east-1"
   source_ami   = "ami-0220d79f3f480ecf5"
   ssh_username = "ec2-user"
-  ssh_password = "DevOps321"
+
 }
 
 build {
